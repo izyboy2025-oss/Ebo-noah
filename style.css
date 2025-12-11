@@ -1,0 +1,150 @@
+•	{
+  Margin: 0;
+  margin-top: 0;
+  Padding: 0;
+  Box-sizing: border-box;
+  Font-family: Arial, sans-serif;
+}
+Body {
+  background: url(images\ \(2\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  Display: flex;
+  Justify-content: center;
+  Align-items: center;
+  Min-height: 100vh;
+  Padding: 10px;
+}
+.mobile-container {
+  Width: 400px;
+  Height: 1%;
+  Background: white;
+  Border-radius: 20px;
+  Overflow: hidden;
+  Box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  Display: flex;
+  Flex-direction: column;
+  margin-top: 0;
+}
+.header {
+  background: linear-gradient(to left, rgb(45, 45, 247), rgb(255, 36, 36));
+  Color: white;
+  backdrop-filter: blur(5px);
+  Padding: 15px;
+  Text-align: center;
+  Font-size: 2.3em;
+  Font-weight: bold;
+}
+.nav a {
+  Text-decoration: none;
+  Color: #333;
+}
+.content {
+  Padding: 20px;
+  Flex: 1;
+  Overflow-y: auto;
+}
+.title {
+  Text-align: center;
+  Margin-bottom: 20px;
+}
+.title h2 {
+  Font-size: 20px;
+  Color: black;
+  margin-top: 0;
+  background-color: rgb(189, 255, 174);
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px;
+}
+
+h1{font-size: 1.4em;
+    background-color: rgb(222, 222, 141);
+    border-radius: 7px;
+    padding: 2px;
+
+}
+.title p {
+  Font-size: 20px;
+  margin-top: 0;
+  Color: #f10707;
+  font-weight: bold;
+}
+.form-table {
+  Width: 100%;
+  Border-collapse: collapse;
+  Margin-bottom: 20px;
+}
+.form-table td {
+  Padding: 8px;
+  Border: 1px solid #ddd;
+}
+.form-table input[type=”text”],
+.form-table select {
+  Width: 100%;
+  Padding: 6px;
+  Border: 1px solid #ccc;
+  Border-radius: 4px;
+  Box-sizing: border-box;
+}
+.form-table select {
+  Cursor: pointer;
+}
+.form-table td:first-child {
+  Font-weight: bold;
+  Background-color: #fffed4;
+}
+.btn {
+  Width: 100%;
+  Padding: 12px;
+  Background: #1a73e8;
+  Color: white;
+  Border: none;
+  Border-radius: 9px;
+  Font-size: 16px;
+  Font-weight: bold;
+  Cursor: pointer;
+  Margin-top: 20px;
+}
+.footer {
+  Text-align: center;
+  Padding: 10px;
+  Background: #f0f0f0;
+  Font-size: 12px;
+  Color: #666;
+}
+
+#img1{
+    height: 140px;
+    border-radius: 50%;
+    
+    
+}
+
+#img11{
+  background: linear-gradient(to left, orange, rgb(195, 255, 183));
+  Color: white;
+  backdrop-filter: blur(5px);
+  Padding: 15px;
+  Text-align: center;
+  Font-size: 2.3em;
+  Font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#note{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5px;
+}
+#hugo{
+    background-color: orange;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 7px;
+    padding: 3px;
+    font-size: 1.2em;
+}

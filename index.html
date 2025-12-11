@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebo Noah Ark Booking Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="mobile-container">
+    <div id="img11">
+        <img src="images (4).jpeg" id="img1"> 
+    </div>
+    <div class="header">
+      EBO NOAH ARK 
+    </div>
+    <div class="content">
+      <div class="title">
+        <h2>PREPARE FOR THE FLOOD</h2>
+        <p>Dec 25, 2025</p>
+        <h1>Get A Reservation Today!!!</h1>
+      </div>
+      
+      <table class="form-table">
+        <tr>
+          <td>Name</td>
+          <td><input type="text" id="name"  name="name" placeholder="Enter name" required></td>
+        </tr>
+        <tr>
+          <td>Boat Type</td>
+          <td>
+            <select name="boatType" required>
+              <option value="">Select Boat</option>
+              <option value="sail">Takoradi Boat 1</option>
+              <option value="motor">Takoradi Boat 2</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Class</td>
+          <td>
+            <select name="class" required>
+              <option value="">Select Class</option>
+              <option value="first">First Class</option>
+              <option value="business">Business Class</option>
+              <option value="economy">Economy</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Payment Method</td>
+          <td>
+            <select name="payment" required>
+              <option value="">Select Payment</option>
+              <option value="momo">MTN Momo</option>
+               <option value="momo">Telecel Cash</option>
+                <option value="momo">Airtel Tigo</option>
+             <option value="paypal">PAYPAL<br>(for our Yahoo boys)</option>
+              <option value="paypal">CASH</option>
+            </select>
+          </td>
+        </tr>
+         <tr>
+          <td>Gmail</td>
+          <td><input type="email" id="gmailInput" name="gmail" placeholder="eg. ebonoah@gmail.com"></td>
+        </tr>
+      </table>
+
+      <div id="note">Ensure All details are correct. On the Day of flood, we dont want any Ananse Stories.....<br>All payments are to be made on the day!!! - Ebo Noah</div>
+      
+      <button class="btn" type="submit" id="submitBtn">Submit</button>
+    </div>
+    
+    <div class="footer">
+      Ebo Noah &copy; 2025
+      <div id="hugo">Powered By Hugo Tech</div>
+    </div>
+  </div>
+
+<script src="index.js"></script>
+</body>
+</html>
